@@ -14,7 +14,7 @@ pipeline {
             }
         }
 
-          stage('slim') {
+          stage('sl') {
             steps {
                 echo 'Hello slim'
             }
