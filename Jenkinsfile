@@ -26,5 +26,13 @@ pipeline {
             }
         }
 
+
+ stage('pretty') {
+            steps {
+                echo 'pretty'
+            }
+        }
+
+
     }
 }
