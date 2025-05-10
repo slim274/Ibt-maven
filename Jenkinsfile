@@ -19,5 +19,12 @@ pipeline {
                 echo 'Hello slim'
             }
         }
+
+ stage('ahmed') {
+            steps {
+                echo 'Ahmed'
+            }
+        }
+
     }
 }
